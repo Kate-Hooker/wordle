@@ -1,4 +1,7 @@
 import React from 'react'
+import { useState } from 'react'
+
+
 
 function Board() {
   const [board, setBoard] = useState(boardDefault)
