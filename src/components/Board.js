@@ -1,7 +1,19 @@
 import React from 'react'
 
 function Board() {
-  return <div>Board</div>
+  const [board, setBoard] = useState(boardDefault)
+
+  return (
+    <div classname="board">
+      {''}
+      <div classname="row"></div>
+      <div classname="row"></div>
+      <div classname="row"></div>
+      <div classname="row"></div>
+      <div classname="row"></div>
+      <div classname="row"></div>
+    </div>
+  )
 }
 
 export default Board
