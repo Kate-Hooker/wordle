@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { AppContext } from '../App'
+import React from 'react'
+//import { AppContext } from '../App'
 import Letter from './Letter'
-import { boardDefault } from '../Words'
+//import { boardDefault } from '../Words'
 
 function Board() {
  
