@@ -4,7 +4,7 @@ import Letter from './Letter'
 import { boardDefault } from '../Words'
 
 function Board() {
-  const [board, setBoard] = useState(boardDefault)
+ 
   return (
     <div className="board">
       {' '}
